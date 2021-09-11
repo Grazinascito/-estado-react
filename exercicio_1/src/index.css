@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E5E5;
+
+}
+
+.card{
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+   
+    border-radius: 8px;
+    background-color: #fff;
+}
+.close{
+    width: 40px;
+    align-self: flex-end;
+}
+
+.icon{
+    width: 100px;
+    margin-bottom: 40px;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.card p{
+    margin-bottom: 40px;
+    
+}
+
+.card button{
+    all: unset;
+    padding: 15px;
+    width: 192px;
+    border-radius: 5px;
+    text-align: center;
+    
+    color: white;
+
+}
+
+.card button.cookie{
+    background-color: #ED6755;
+}
